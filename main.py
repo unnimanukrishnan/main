@@ -23,6 +23,11 @@ def view_adminhome():
     return render_template('adminhome.html')
 
 
+@app.route('/logout')
+def logout():
+    return render_template('login.html')
+
+
 
 
 
